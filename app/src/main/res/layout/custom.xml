@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/try1"
+        android:orientation="vertical"
+    >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image_view_dialog"
+            android:layout_marginTop="0dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/text_view_dialog3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view_dialog"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/try1"
+        android:id="@+id/view1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view1"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bluetwitter"
+            android:id="@+id/twitter"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:tint="@color/bookmark"
+            android:src="@drawable/hollow_bookmark"
+            android:id="@+id/bookmark"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
