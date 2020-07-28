@@ -2,8 +2,8 @@
 A news application for android implemented with Node JS as backend and Java as frontend
 
 ## Tech Stack
--*NodeJS Backend*
--*Java Frontend*
+- *NodeJS Backend*
+- *Java Frontend*
 
 ## Screenshots
 ![Home Page](https://i.imgur.com/6U9ECyS.png)
